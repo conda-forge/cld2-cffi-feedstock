@@ -16,14 +16,16 @@ library (CLD2)
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cld2-cffi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cld2-cffi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cld2-cffi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cld2-cffi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cld2-cffi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cld2-cffi-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cld2-cffi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cld2-cffi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cld2-cffi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cld2-cffi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cld2-cffi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cld2-cffi-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cld2-cffi/badges/version.svg)](https://anaconda.org/conda-forge/cld2-cffi)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cld2-cffi/badges/downloads.svg)](https://anaconda.org/conda-forge/cld2-cffi)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cld2--cffi-green.svg)](https://anaconda.org/conda-forge/cld2-cffi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cld2-cffi.svg)](https://anaconda.org/conda-forge/cld2-cffi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cld2-cffi.svg)](https://anaconda.org/conda-forge/cld2-cffi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cld2-cffi.svg)](https://anaconda.org/conda-forge/cld2-cffi) |
 
 Installing cld2-cffi
 ====================
@@ -68,6 +70,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
