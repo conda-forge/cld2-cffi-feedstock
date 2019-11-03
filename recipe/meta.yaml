@@ -42,7 +42,8 @@ test:
 
 about:
   home: http://github.com/GregBowyer/cld2-cffi/
-  license: Apache 2.0
+  license: Apache-2.0
+  license_file: LICENSE
   summary: CFFI bindings for CLD2
   description: |
     CFFI bindings around Google Chromium's embedded compact language detection

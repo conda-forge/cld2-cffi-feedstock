@@ -1,13 +1,9 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About cld2-cffi
 ===============
 
 Home: http://github.com/GregBowyer/cld2-cffi/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
@@ -20,9 +16,117 @@ library (CLD2)
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cld2-cffi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cld2-cffi-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/cld2-cffi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cld2-cffi-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cld2-cffi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cld2-cffi-feedstock/branch/master)
+
+<table>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_c_compilervs2008cxx_compilervs2008python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2008cxx_compilervs2008python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_c_compilervs2015cxx_compilervs2015python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_c_compilervs2015cxx_compilervs2015python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_c_compilervs2015cxx_compilervs2015python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2819&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cld2-cffi-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.8" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>Linux_ppc64le</td>
+    <td>
+      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
