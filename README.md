@@ -3,7 +3,7 @@ About cld2-cffi
 
 Home: http://github.com/GregBowyer/cld2-cffi/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
