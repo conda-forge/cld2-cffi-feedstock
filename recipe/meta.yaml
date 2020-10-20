@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256sum }}
 
 build:
-  number: 1001
+  number: 1002
   script: 
      - export CFLAGS="$CFLAGS -Wno-narrowing"      # [unix]
      - export CXXFLAGS="$CXXFLAGS -Wno-narrowing"  # [unix]
