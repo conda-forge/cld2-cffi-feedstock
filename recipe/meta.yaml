@@ -10,20 +10,23 @@ source:
   sha256: 3a29948364ed1e426c5bf542832eee208b1c70c0ad512b1a99bec0e6486f6c67
 
 build:
-  number: 1006
+  number: 1007
   script: 
      - export CFLAGS="$CFLAGS -Wno-narrowing"      # [unix]
      - export CXXFLAGS="$CXXFLAGS -Wno-narrowing"  # [unix]
-     - python setup.py install --single-version-externally-managed --record=record.txt
-  skip: True  # [win32]
+     - {{ PYTHON }} -m pip install -vvv .
 
 requirements:
   build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - cffi                                   # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
     - python
+    - pip
     - setuptools
     - cffi
     - six
